@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact M and A Real Estates.">
+  <title>Contact | T and A Real Estates</title>
+  <link rel="stylesheet" href="Stlye.css">
+</head>
+<body>
+ <header class="site-header">
+        <nav class="navbar container">
+            <a class="logo" href="index.html"><span>T<span class="amp">&</span>A</span> 
+                <small>REAL ESTATES</small></a><button class="menu-toggle" aria-label="Open menu">☰</button>
+                <div class="nav-links">
+                    <a href="index.html">Home</a><a href="properties.html">Properties</a><a class="active" href="about.html">About Us</a><a href="contact.html" class="nav-cta">Contact Us</a>
+                </div>
+            </nav></header>
+            <main>
+<section class="page-hero"><div class="container"><p class="eyebrow">OUR PROPERTY COLLECTION</p><h1>Properties</h1><p>Explore homes, apartments and commercial spaces selected by our team.</p></div></section>
+<section class="section">
+<div class="container">
+  <div class="filters">
+    <input id="propertySearch" type="search" placeholder="Search by property or location...">
+    <select id="typeFilter"><option value="all">All types</option><option value="house">House</option><option value="apartment">Apartment</option><option value="commercial">Commercial</option></select>
+    <select id="statusFilter"><option value="all">All statuses</option><option value="sale">For Sale</option><option value="rent">For Rent</option></select>
+  </div>
+  <p id="resultCount" class="result-count"></p>
+  <div class="property-grid" id="propertyGrid">
+    <article class="property-card listing" data-type="house" data-status="sale" data-name="modern hillside villa kololo kampala">
+      <div class="property-image"><img src="images/mbra city.jpg" alt="MBARARA City"><span class="badge">For Rent</span></div><div class="property-info"><span class="property-type">LUXURY VILLA</span><h3>MBARARA CITY</h3><p class="location">📍 Kakoba , Mbarara</p><div class="property-meta"><span>🛏 4 Beds</span><span>🛁 3 Baths</span><span>📐 420 m²</span></div><div class="price">UGX850M</div></div>
+    </article>
+    <article class="property-card listing" data-type="apartment" data-status="rent" data-name="city view apartment naguru kampala">
+      <div class="property-image"><img src="images/plot.jpg" alt="City View Apartment"><span class="badge">For Rent</span></div><div class="property-info"><span class="property-type">APARTMENT</span><h3>City View Apartment</h3><p class="location">📍 Nyakiizi, Mbarara</p><div class="property-meta"><span>🛏 3 Beds</span><span>🛁 2 Baths</span><span>📐 180 m²</span></div><div class="price">UGX500M<small>/ month</small></div></div>
+    </article>
+    <article class="property-card listing" data-type="commercial" data-status="sale" data-name="prime office complex ntinda kampala">
+      <div class="property-image"><img src="images/plot2.jpg" alt="Prime Office Complex"><span class="badge">For Sale</span></div><div class="property-info"><span class="property-type">COMMERCIAL</span><h3>Prime Office Complex</h3><p class="location">📍 katete, Mbarara</p><div class="property-meta"><span>🏢 12 Offices</span><span>🚗 Parking</span><span>📐 900 m²</span></div><div class="price">UGX400M</div></div>
+    </article>
+    <article class="property-card listing" data-type="house" data-status="sale" data-name="garden family home muyenga kampala">
+      <div class="property-image"><img src="images/house.jpg" alt="Garden Family Home"><span class="badge">For Sale</span></div><div class="property-info"><span class="property-type">FAMILY HOME</span><h3>Garden Family Home</h3><p class="location">📍 Muyenga, Mbarara</p><div class="property-meta"><span>🛏 5 Beds</span><span>🛁 4 Baths</span><span>📐 510 m²</span></div><div class="price">UGX620</div></div>
+    </article>
+  
+  </div>
+  <div id="noResults" class="no-results" hidden><h3>No properties found</h3><p>Try changing your filters or search term.</p></div>
+</div>
+</section>
+</main>
+<footer class="footer"><div class="container footer-grid"><div><a class="logo footer-logo" href="index.html"><span>T<span class="amp">&</span>A</span> <small>REAL ESTATES</small></a><p>Helping you find spaces that feel like home.</p></div><div><h4>Quick Links</h4><a href="index.html">Home</a><a href="properties.html">Properties</a><a href="about.html">About Us</a></div><div><h4>Contact</h4><p>📍 Mbarara, Uganda</p><p>☎ +256 756 681 437</p><p>✉ info@marealestates.com</p></div></div><div class="copyright">© 2026 T and A Real Estates. All rights reserved.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
